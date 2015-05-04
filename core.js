@@ -403,10 +403,10 @@ function testAll() {
 
   for (var i = 0; i < total; i++) {
     if (tests[i]()) {
-      console.log('PASSED: ' + tests[i].name)
+      console.log('PASSED: ' + tests[i].name);
       passed++;
     } else {
-      console.log('FAILED: ' + tests[i].name)
+      console.log('FAILED: ' + tests[i].name);
       failed++;
     }
   }
@@ -422,7 +422,7 @@ function testAll() {
 var tests = [
   testGet,
   testForceKeyPathSet
-]
+];
 
 function testGet() {
   return true;
